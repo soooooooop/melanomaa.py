@@ -27,7 +27,7 @@ def get_prediction(image_data): #expects parameter image data
 #creating the web app
 
 #setting up the title
-st.title("Cat and Dog Image Classifier") 
+st.title("Benign and Malignant Melanona Classifier") 
 
 #file uploader
 image = st.file_uploader(label="Upload an image",accept_multiple_files=False, help="Upload an image to classify them")
